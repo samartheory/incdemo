@@ -1,7 +1,5 @@
 //import org.apache.log4j.BasicConfigurator;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 import java.sql.DriverManager;
@@ -9,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 //import java.util.logging.Logger;
 public class Main {
-    public static void main(String args[]) throws ClassNotFoundException, SQLException {
+    public static void api(String args[]) throws ClassNotFoundException, SQLException {
         try {
             Properties props = new Properties();
 //        InputStream ins = new FileInputStream("employee.properties");
